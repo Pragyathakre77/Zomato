@@ -1,0 +1,27 @@
+#formpopup {
+    position: fixed;
+    top: 12%;
+    left: 40%;
+    height: 350px;
+    width: 500px;
+    background-color: white;
+    /* display: none; */
+    border: 2px solid black;
+    border-radius: 10px;
+  
+  }
+  .signup {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .signup span {
+    color: black;
+    font-size: 20px;
+  }
+  #input {
+    display: flex;
+    flex-direction: column;
+  }

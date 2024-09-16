@@ -1,0 +1,41 @@
+.inputform{
+    position: relative;
+    position: fixed;
+    top: 12%;
+    left: 40%;
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  .inputsignup {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .inputsignup span {
+    font-size: 20px;
+    color: black;
+  }
+  #input {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+  }
+  .csa {
+    padding: 5px;
+    margin: 20px;
+  }
+  #asd {
+    position: absolute;
+    bottom: 10px;
+    left: 32%;
+    background-color: orangered;
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 10px;
+  }
